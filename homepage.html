@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Homepage Look alike</title>
+        <style>
+            #nav{
+                display: flex;
+                justify-content: flex-end;
+                margin-top:15px;
+            }
+            #nav a{
+                margin-right: 20px;
+            }
+            #nav a.topimage{ 
+                width: 20px;
+                height: 20px;
+                background: rgb(96, 233, 142);
+                border-radius: 10px;
+            }
+
+            #middle{
+                margin-top: 150px;
+            }
+            #logo{
+                text-align: center;
+            }
+            #searchbarcontainer{
+                text-align: center;
+                margin-top: 20px; 
+            }
+            #searchbar{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                outline: 0;
+                width: 500px;
+                border-radius: 20px;
+                border: 1px solid #c4c4c4;
+            }
+            #searchbar:hover{
+                box-shadow: 0 0 10px 2px rgb(233, 233, 233);
+            }
+
+            #buttons{
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+            }
+            .button{
+                margin-left: 10px;
+                margin-right: 10px;
+                padding-top: 5px;
+                padding-bottom: 10px;
+                cursor: pointer;
+                border-radius: 3px;
+                background: #f0e9e9;
+            }
+
+            #links{
+                text-align: center;
+                margin-top: 10px;    
+                word-spacing: 5px;
+            }
+
+            #footer{
+                position: fixed;
+                bottom: 50px;
+                padding-left: 10px;
+            }
+            #footerleft{
+                position: fixed;
+                bottom: 20px;
+                padding-left: 10px;
+                word-spacing: 25px;
+            }
+            #footeroneword{
+                position: fixed;
+                bottom: 20px;
+                padding-left: 275px;
+            }
+            #footerright{
+                position: relative;
+                bottom: -25px;                 
+                padding-left: 1090px;
+                word-spacing: 25px;
+            }
+
+            a{
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="nav">
+            <a class="toplink">Gmail</a>
+            <a class="toplink">Images</a> 
+            <a class="topimage"></a>
+        </div>
+        <div id="middle">
+            <div id="logo">
+                <img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </div>
+            <div id="searchbarcontainer">
+                <input id="searchbar" type="text">
+            </div>
+            <div>
+                <div id="buttons">
+                    <div class="button">Google Search</div>
+                    <div class="button">I'm feeling lucky</div>
+                </div>
+            </div>
+        </div>
+        <div id="links">Google offered in:
+            <a href="">हिंदी</a>
+            <a href="">বাংলা</a>
+            <a href="">తెలుగు</a>
+            <a href="">मराठी</a>
+            <a href="">தமிழ்</a>
+            <a href="">ગુજરાતી</a>
+            <a href="">ಕನ್ನಡ</a>
+            <a href="">മലയാളം</a>
+            <a href="">ਪੰਜਾਬੀ</a>
+        </div>
+        <div id="footer">India
+            <div id="footerleft">
+                <a href="">About</a>
+                <a href="">Advertising</a>
+                <a href="">Business</a>
+            </div>
+            <div id="footeroneword">
+                <a href="">How search works</a>
+            </div>
+            <div id="footerright">
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+                <a href="">Settings</a>
+            </div>
+        </div>
+    </body>
+</html>
