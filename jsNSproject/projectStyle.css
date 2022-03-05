@@ -1,0 +1,164 @@
+* {
+    background-color: rosybrown;
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 7px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    color: saddlebrown;
+}
+/* .imageStack{
+    position: relative;
+} */
+.picOne > img{
+    margin-left: 30px;
+    margin-top:50px;
+    width: 200px;
+    height: 280px;
+    position: absolute;  
+}
+.picTwo > img{
+    margin-left: 190px;
+    margin-top: 150px;
+    position: absolute;
+    width: 200px;
+    height: 280px;
+}
+.picThree > img{
+    margin-left: 10px;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    margin-top: 350px;
+}
+.picEight > img{
+    width: 230px;
+    height: 200px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 480px;
+}
+.picNine > img{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 650px;
+}
+.picTen > img{
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 260px;
+}
+
+.picFour > img{
+    position: absolute;
+    width: 150px;
+    height: 270px;
+    margin-top: 100px;
+    margin-left: 1160px;
+}
+.picFive > img{
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    margin-left: 1000px;
+    margin-top: 140px;
+}
+.picSix > img{
+    position: absolute;
+    width: 230px;
+    height: 150px;
+    margin-left: 1070px;
+    margin-top: 400px;
+}
+.picSeven > img{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    margin-left: 1000px;
+    margin-top: 470px;
+}
+
+.inputsearch{
+    display: flex;
+    justify-content: center;
+}
+input {
+    
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    border-color: black;
+}
+input:hover{
+    box-shadow: 2px 2px 2px 2px rgb(150, 25, 52);
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    border-color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+button:hover{
+    background-color: rgb(155, 51, 74);
+    color: black;
+}
+.result{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+}
+
+.song-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.song-list li{
+    margin-bottom: 20px;
+    width: 500px;
+    justify-content: space-evenly;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.song-list li::after{
+    content: " ";
+    position: absolute;
+    right: -20px;
+    left: -20px;
+    bottom: -4px;
+    height: 3px;
+    /* background: rgb(12, 147, 100); */
+    display: inline-block;
+    
+}
+.song-list li div{
+    float: left;
+}
+.song-list li span{
+    float: right;
+    background-color: rgb(37, 36, 36);
+    border: none;
+    font-size: 15px;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 4px 10px;
+    text-transform: capitalize;
+}
